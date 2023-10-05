@@ -10,6 +10,6 @@ cout<<"\n  Х   Y(X)   Z(X) \n";
 for (x=a; x<=b+0.1*h; x+=h){
 y=x/pow(x-3,2);
 z=fabs(cos(x/3));
-  cout<<"x = "<< x << "  "<< y << "  "<< z << endl;
+  cout<<"x= "<< x << "  "<< y << "  "<< z << endl;
 }
 }
