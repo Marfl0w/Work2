@@ -9,7 +9,7 @@ cout << "Введіть крок для х: "; cin >> h;
 cout<<"\n  Х   Y(X)   Z(X) \n";   
 for (x=a; x<=b+0.1*h; x+=h){
 y=x/pow(x-3,2);
-z=fabs(cos(x/3));
+z=fabs(cos(x/4));
   cout<<"x = "<< x << "  "<< y << "  "<< z << endl;
 }
 }
